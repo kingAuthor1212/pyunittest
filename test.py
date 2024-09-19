@@ -1,6 +1,6 @@
 import unittest
 from cal import addNumbers
-class TestAddFunction(unittest.TestCase):
+class MyTestCase(unittest.TestCase):
     def test_add_positive_numbers(self):
         self.assertEqual(addNumbers(1, 2), 3)
 
